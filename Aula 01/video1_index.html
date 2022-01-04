@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <!--o html tem duas tags filhas: o head e o body-->
+<head>
+    <!--o head contém todas as informações pertinentes à página. Contém informações úteis. Cabeçalho-->
+    <!--tags meta servem para a descrição do site. Tags ligadas ao navegador. Elas em geral direcionam a busca-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/megaman.jpg" type="image/x-icon"> <!--coloca um ícone na aba da janela-->
+    <title>Primeira aula</title> <!--título que vai aparecer na aba da janela-->
+<body>
+    <!--body é todo o conteúdo que será visto na página-->
+    <!--tags de headline: tags H-->
+    <h1>Palavra</h1> <!--em toda página html é recomendado ter apenas 1 h1-->
+    <h2>Palavra</h2>
+    <h3><a href="#series">Palavra</a></h3>
+    <!--link interno #series remete para o tópico com id="series"-->
+    <p>Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco <i>laboris</i> nisi ut aliquip ex ea commodo consequat. <em>Duis aute irure dolor</em> in reprehenderit <del>in voluptate</del> velit esse cillum <ins>dolore eu fugiat</ins> nulla pariatur. <br>Excepteur sint <sub>occaecat</sub> cupidatat <sup>non proident, sunt</sup> in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <p>Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco <i>laboris</i> nisi ut aliquip ex ea commodo consequat. <em>Duis aute irure dolor</em> in reprehenderit <del>in voluptate</del> velit esse cillum <ins>dolore eu fugiat</ins> nulla pariatur. <br>Excepteur sint <sub>occaecat</sub> cupidatat <sup>non proident, sunt</sup> in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <p>Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco <i>laboris</i> nisi ut aliquip ex ea commodo consequat. <em>Duis aute irure dolor</em> in reprehenderit <del>in voluptate</del> velit esse cillum <ins>dolore eu fugiat</ins> nulla pariatur. <br>Excepteur sint <sub>occaecat</sub> cupidatat <sup>non proident, sunt</sup> in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <p>Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco <i>laboris</i> nisi ut aliquip ex ea commodo consequat. <em>Duis aute irure dolor</em> in reprehenderit <del>in voluptate</del> velit esse cillum <ins>dolore eu fugiat</ins> nulla pariatur. <br>Excepteur sint <sub>occaecat</sub> cupidatat <sup>non proident, sunt</sup> in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <p>
+        <figure>
+                <img src="https://tec-cia.com.br/wp-content/uploads/2018/02/Chrono-Trigger-Limited-Edition.jpg" alt="imagem do Chrono Trigger">
+            <figcaption>Chrono Trigger</figcaption> <!--figcaption é a legenda da figura-->
+        </figure>
+    </p>
+    <p>Jogos</p>
+    <!--ol: ordered list-->
+    <!--ol>li*5-->
+    <!--li: list itens-->
+    <ol type='1'> <!-- type: 1, I, none, ...-->
+        <li a href="" target="_blank">Final Fantasy VII</li>
+        <li>The Witcher</li>
+        <li>Castlevania</li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Chrono_Trigger" target="_blank">Chrono Trigger</a></li>
+    </ol>
+    
+    <p id="series">Séries para maratonar</p>
+    <!--ul: unordered list-->
+    <ul type='square'> <!-- type: square, circle, none, ...-->
+        <li>Fringe</li>
+        <li>Love me</li>
+        <li>The Blacklist</li>
+        <li>Sopranos</li>
+        <li>Friends</li>
+    </ul>
+
+    <p>
+        <!--abre um buraco na página e exibe um componente de outra página-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ePyPfvOfce0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    
+</body>
